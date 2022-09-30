@@ -13,6 +13,6 @@ def quick_sort(list):
             list2.append(e)
     return quick_sort(list1) + [pivot] + quick_sort(list2)
 
-list = [12,34,2,78,1,8,4,12,1002,0,46,1]
-sorted_list = quick_sort(list)
-print(sorted_list)
+##list = [12,34,2,78,1,8,4,12,1002,0,46,1]
+##sorted_list = quick_sort(list)
+##print(sorted_list)
